@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+        <meta charset="utf-8">
+	    <title>My Website</title>
+	    <link rel="stylesheet" type="text/css" href="2.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#" class="channel"><img src="logo.png"></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <div class="headercontent">
+                <h2>Extrovertally Introvert / Web Developer</h2>
+                <h1>BITSnBYTES</h1>
+                <button class="b1"><a href="#">My Vlog</a></button>
+                <button class="b2"><a href="#">My Blog</a></button>
+            </div>
+        </div>
+        <div class="about">
+            <div class="head">
+                <h1>About<span> Me</span></h1>
+                <p>Aaoge jab tum saajna angna fool khile. Barsega saavan, barsega saavan jhoom jhoom ke.Aaoge jab tum saajna angna fool khile. Barsega saavan, barsega saavan jhoom jhoom ke.Aaoge jab tum saajna angna fool khile. Barsega saavan, barsega saavan jhoom jhoom ke.</p>
+            </div>
+            <div class="bottom">
+                <h1>Ashwani Yadav<br>IIT Patna</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="box box1">
+                <h1>Awesome Resources!!!</h1>
+                <div class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PwsigsH4oXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h2>YouTube Channel</h2>
+            </div>
+            <div class="box box2">
+                <h1>HELLO WORLD!!!</h1>
+                <h2 class="type"></h2>
+            </div>
+        </div>
+        <div class="footer">
+            <h1>Copyrights</h1>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            var zero=0;
+            $(document).ready(function(){
+                $(window).on('scroll',function(){
+                    $('.navbar').toggleClass('hide',$(window).scrollTop()>zero);
+                    zero=$(window).scrollTop();
+                })
+            })
+        </script>
+        <script type="text/javascript" src="typed.js"></script>
+        <script type="text/javascript">
+            var typed = new Typed(".type",{
+                strings: ["To understand very large, understand very small.", "Let none presume to wear an undeserved dignity, that clear honour were purchas'd by the merit of the wearer.","Ain't no taste sweeter than victory itself."],
+                typeSpeed: 50,
+                backSpeed: 50,
+                smartBackspace: true,
+                loop: true
+            });
+        </script>
+    </body>
+</html> 
