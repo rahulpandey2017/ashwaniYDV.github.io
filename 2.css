@@ -19,7 +19,7 @@ header{
     z-index: 99;
 }
 .navbar{
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.4) !Important;
 }
 .navbar-brand{
     font-family: 'Pacifico', sans-serif;
@@ -35,15 +35,6 @@ header{
 }
 .active .nav-link{
     color: #00e8e8 !Important;
-}
-.oopar-button{
-    padding: 13px 46px;
-    background-color: transparent;
-    transition: all 300ms ease-in;
-}
-.oopar-button:hover{
-    color: white;
-    background-color: #00e8e8;
 }
 .site-content{
     background: url(a.jpg);
