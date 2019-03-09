@@ -45,6 +45,7 @@ header{
     background-attachment: fixed;
     background-size: cover;
     padding: 10% 0;
+    margin-top: 50px;
 }
 .site-title,.site-desc{
     color: white;
