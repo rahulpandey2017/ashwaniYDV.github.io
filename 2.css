@@ -16,6 +16,7 @@ header{
     top: 0;
     width: 100%;
     background: rgba(0,0,0,.4);
+    z-index: 99;
 }
 .navbar-brand{
     font-family: 'Pacifico', sans-serif;
