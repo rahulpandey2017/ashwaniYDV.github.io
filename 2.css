@@ -18,6 +18,9 @@ header{
     background: rgba(0,0,0,.4);
     z-index: 99;
 }
+.navbar{
+    background: rgba(0,0,0,.4);
+}
 .navbar-brand{
     font-family: 'Pacifico', sans-serif;
 }
