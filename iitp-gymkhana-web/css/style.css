@@ -868,9 +868,105 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Events Section */
 
-#events{
-    
-}
+#events {
+    background: #fff;
+    padding: 60px 0;
+  }
+  
+  #events .events-container .background {
+    margin: 20px 0;
+  }
+  
+  #events .events-container .content {
+    background: #fff;
+  }
+  
+  #events .events-container .title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  #events .events-container p {
+    line-height: 26px;
+  }
+  
+  #events .events-container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  #events .events-container .icon-box {
+    background: #fff;
+    background-size: cover;
+    padding: 0 0 30px 0;
+  }
+  
+  #events .events-container .icon-box .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #events .events-container .icon-box .icon i {
+    color: #007bff;
+    font-size: 24px;
+  }
+  
+  #events .events-container .icon-box:hover .icon {
+    background: #007bff;
+  }
+  
+  #events .events-container .icon-box:hover .icon i {
+    color: #fff;
+  }
+  
+  #events .events-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  #events .events-container .icon-box .title a {
+    color: #283d50;
+  }
+  
+  #events .events-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  
+  #events .events-extra {
+    padding-top: 60px;
+  }
+  
+  #events .events-extra h4 {
+    font-weight: 600;
+    font-size: 24px;
+  }
 
 /* Gallery Section
 --------------------------------*/
