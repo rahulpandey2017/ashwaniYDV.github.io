@@ -833,17 +833,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .composition__photo--p1 {
     left: 60%;
-    top: 20px;
+    top: 0px;
 }
 
 .composition__photo--p2 {
     left: 40%;
-    top: 100px;
+    top: 110px;
 }
 
 .composition__photo--p3 {
     left: 20%;
-    top: 250px;
+    top: 220px;
 }
 
 @media(max-width:1000px) {
@@ -856,7 +856,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clubs .composition__photo:hover {
-    outline: 1.5rem solid #55c57a;
+    outline: 1rem solid #55c57a;
     transform: scale(1.05) translateY(2rem);
     box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, 0.4);
     z-index: 20;
@@ -866,7 +866,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(0.95);
 }
 
+/* Events Section */
 
+#events{
+    
+}
 
 /* Gallery Section
 --------------------------------*/
