@@ -626,7 +626,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Section with background
 --------------------------------*/
-
 .section-bg {
     background: #f7f7f7;
 }
@@ -643,27 +642,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     z-index: 10;
 }
+.about-col{
+    text-align: justify;
+}
 
 .about-col-clip1 {
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
     padding: 100px;
+    
 }
 
 .about-col-clip2 {
     clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
     padding: 100px;
-}
-
-@media(max-width: 500px) {
-    .about-col-clip1 {
-        clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
-        padding: 10px;
-    }
-
-    .about-col-clip2 {
-        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
-        padding: 10px;
-    }
 }
 
 #about .about-col {
@@ -736,6 +727,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 0 20px 20px 20px;
 }
 
+@media(max-width: 500px) {
+    .about-col-clip1 {
+        clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+        padding: 50px 10px;
+    }
+
+    .about-col-clip2 {
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        padding: 50px 10px;
+    }
+}
 
 /* Clubs Section
 --------------------------------*/
@@ -993,6 +995,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   
   #events .events-extra {
     padding-top: 60px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,.5);
   }
   
   #events .events-extra h4 {
@@ -1003,6 +1006,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     -webkit-box-shadow: 10px 3px 17px -5px rgba(0,0,0,0.62);
     -moz-box-shadow: 10px 3px 17px -5px rgba(0,0,0,0.62);
     box-shadow: 10px 3px 17px -5px rgba(0,0,0,0.62);
+  }
+
+  @media(max-width: 500px){
+    #events {
+        padding: 60px 20px;
+      }
   }
 
 /* Gallery Section
