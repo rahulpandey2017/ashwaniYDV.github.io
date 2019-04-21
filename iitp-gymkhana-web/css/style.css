@@ -815,6 +815,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 0;
     color: #fff;
     font-size: 15px;
+    text-align: justify;
 }
 @media(max-width: 1000px){
     #clubs .col-content-text{
@@ -826,6 +827,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
     .text div p{
         font-size: 12px;
+    }
+    .text div h1{
+        font-size: 16px;
     }
     .col-content-text{
         width: 100%;
