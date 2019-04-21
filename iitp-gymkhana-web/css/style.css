@@ -649,7 +649,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about-col-clip1 {
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 90%);
     padding: 100px;
-    
 }
 
 .about-col-clip2 {
@@ -1151,6 +1150,70 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Team Section
 --------------------------------*/
+.section-header h1 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-header h1::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section-header h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #18d26e;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.section-header h2 {
+    font-size: 26px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-header h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 150px);
+}
+
+.section-header h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #188ed2;
+    bottom: 0;
+    left: calc(50% - 50px);
+}
+
 #team {
     padding: 0;
     background: #fff;
@@ -1303,6 +1366,42 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 5px;
     background-color: #fff;
 }
+
+/* tab controllers */
+.panel{
+    display: none;
+}
+.panel.active{
+    display: block;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.nav button{
+    transform: skewX(-30deg);
+    padding: 10px;
+    margin: 5px 5px;
+    border: none;
+    outline: none;
+    background: rgb(41, 41, 41);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0,0,0,.5);
+    transition: .3s;
+}
+.nav button:hover{
+    transform: skewX(-25deg);
+    background: #009f00;
+    box-shadow: 0 5px 10px rgba(0,0,0,.8);
+}
+.nav button.active{
+    background: #009f00;
+    box-shadow: 0 5px 15px #fff;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
