@@ -1251,6 +1251,18 @@ body.mobile-nav-active #mobile-nav-toggle {
     right: 20px;
 }
 
+@media(max-width: 400px){
+    .profile-card:hover .profile-content:before {
+        top: 5px;
+        left: 5px;
+    }
+    
+    .profile-card:hover .profile-content:after {
+        bottom: 5px;
+        right: 5px;
+    }
+}
+
 .profile-card .profile-content::after {
     content: "";
     position: absolute;
@@ -1302,11 +1314,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: linear-gradient(115.55167547539611deg, rgba(244, 72, 104, .5) 11.407226448257765%, rgba(244, 72, 104, .5) 25.859348610457452%, rgba(243, 72, 104, .5) 33.50344628302588%, rgba(158, 0, 236, .5) 68.73795899252097%);
 }
 
+.profile-card .profile-content .title {
+    font-size: 16px;
+}
+
 .profile-card .profile-content .title>span {
     display: block;
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 10px;
     text-transform: capitalize;
+}
+
+@media(max-width: 400px){
+    .profile-card .profile-content .title {
+        font-size: 12px;
+    }
+    .profile-card .profile-content .title>span {
+        font-size: 8px;
+    }
 }
 
 .profile-card .profile-content .social-link {
