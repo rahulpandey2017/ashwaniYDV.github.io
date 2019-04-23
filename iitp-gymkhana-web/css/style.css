@@ -182,6 +182,26 @@ h6 {
     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%)
 }
 
+#logo-img{
+    width: 140px;
+    position: relative; 
+    top: -30px;
+}
+
+@media(max-width: 770px){
+    #logo-img{
+        position: relative;
+        transform: translateY(25px) scaleY(1.5);
+    }
+}
+@media(max-width: 500px){
+    #logo-img{
+        position: relative;
+        transform: translateY(25px) scaleY(1.5);
+    }
+}
+
+
 #intro .carousel-item {
     width: 100%;
     height: 100vh;
